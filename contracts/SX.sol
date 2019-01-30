@@ -8,6 +8,9 @@ import "./Jackpot.sol";
 contract SX is Ownable {
     using SafeMath for uint256;
 
+    string constant public name = "DICE.SX";
+    string constant public symbol = "DSX";
+
     uint256 public adminFeePercent = 1;   // 1%
     uint256 public jackpotFeePercent = 1; // 1%
     uint256 public maxRewardPercent = 10; // 10%
