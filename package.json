@@ -13,17 +13,12 @@
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "ethereumjs-block": "^2.1.0",
-    "ethereumjs-util": "^6.0.0",
-    "ethjs-abi": "^0.2.1",
     "ganache-cli": "^6.2.5",
     "openzeppelin-solidity": "^2.0.0",
     "solidity-coverage": "^0.5.11",
-    "solidity-rlp": "^1.1.0",
     "solium": "^1.1.8",
-    "truffle": "^4.1.14",
-    "truffle-flattener": "^1.2.8",
-    "web3-utils": "^1.0.0-beta.37"
+    "truffle": "^4.1.15",
+    "truffle-flattener": "^1.2.11"
   },
   "scripts": {
     "test": "scripts/test.sh",
